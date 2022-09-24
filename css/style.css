@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  background-color: #212529;
 }
 
 .button-class:hover {
@@ -40,7 +41,7 @@ body {
   filter: blur(0.3rem);
 }
 
-.contents, .about_field:not(.about_field_not) {
+.contents, .about_field:not(.about_field_not), .sport_field_not {
   /* background: rgb(5,88,9);
   background: linear-gradient(0deg, rgba(5,88,9,1) 0%, rgba(9,23,166,1) 100%, rgba(173,173,173,1) 100%); */
   background-image: url(./../assets/images/cool-background.png);
@@ -70,8 +71,21 @@ body {
   border-radius: 5px;
 }
 
-
 .footer-home {
   background-image: url(./../assets/images/wallpaper_home.jpg);
   background-position: center bottom;
+}
+
+.sport_field {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sport_text {
+  text-align: justify;
+}
+
+.sport_field:not(.sport_field_not) {
+  color: #fff;
 }
