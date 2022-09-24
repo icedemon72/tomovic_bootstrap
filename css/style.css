@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .button-class:hover {
   background-color: #fff;
 }
@@ -21,9 +27,25 @@
   border-radius: 10px;
 }
 
+.card {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+  filter: blur(0.3rem);
+}
+
 .contents {
-  background: rgb(5,88,9);
-  background: linear-gradient(0deg, rgba(5,88,9,1) 0%, rgba(9,23,166,1) 100%, rgba(173,173,173,1) 100%);}
+  /* background: rgb(5,88,9);
+  background: linear-gradient(0deg, rgba(5,88,9,1) 0%, rgba(9,23,166,1) 100%, rgba(173,173,173,1) 100%); */
+  background-image: url(./../assets/images/cool-background.png);
+  background-size: cover;
+}
 
 .footer-home {
   background-image: url(./../assets/images/wallpaper_home.jpg);

@@ -1,5 +1,6 @@
 body {
-  background-color: #212529;
+  background-image: url(./../assets/images/cool-background.png);
+  background-size: cover;
 }
 
 .contact_container {
@@ -8,8 +9,8 @@ body {
 }
 
 .contact_card {
-  background-color: #e7e7e7;
-
+  background-color: #212529;
+  color: #ffffff;
 }
 
 .contact_btn {
